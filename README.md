@@ -1,5 +1,5 @@
 # laravel-db-to-migration-seeder-generator
-This code is a PHP script that generates migrations and seeders for a database based on the provided configurations. The script reads the database configurations from a JSON file (database_config.json) and performs the following tasks for each database specified:
+This code is a PHP script that generates Laravel migrations and seeders for a database based on the provided configurations. The script reads the database configurations from a JSON file (database_config.json) and performs the following tasks for each database specified:
 
 - Establishes a connection to the database using the provided server, database name, username, and password.
 - Creates migration and seeder folders if they don't already exist.
